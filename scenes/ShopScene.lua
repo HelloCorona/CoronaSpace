@@ -167,9 +167,12 @@ createCenterBox = function (sceneGroup)
 	rightBtn.x, rightBtn.y = itemBox.x + itemBoxW + 10, itemBox.y + (itemBoxH * 0.5) - (rightBtn.height * 0.5)
 
 	local function on_RightBtnTap(e)
-		changeShowItem(currentItemIdx + 1)
+            changeShowItem(currentItemIdx + 1)
 	end
 	rightBtn:addEventListener("tap", on_RightBtnTap)
+        
+        -- 사용중인 아이템으로 이동
+        changeShowItem(GameConfig.getPlayerSkinType())
 	--====== 샵 아이템 End ======--
 
 	box.x, box.y = (__appContentWidth__ * 0.5) - (box.width * 0.5), (__appContentHeight__ * 0.45) - (box.height * 0.5)
