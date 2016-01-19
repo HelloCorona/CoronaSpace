@@ -11,4 +11,4 @@ https://www.youtube.com/watch?v=Yq4GdLeIM5g
 
 [![IMAGE ALT TEXT](http://wonhada.com/wp-content/uploads/2016/01/gamesample.jpg)](http://www.youtube.com/watch?v=Yq4GdLeIM5g "Video Title")
 
-[![ScreenShot](http://wonhada.com/wp-content/uploads/2016/01/gamesample.jpg)](http://youtu.be/Yq4GdLeIM5g)
+[![Alt text for your video](http://wonhada.com/wp-content/uploads/2016/01/gamesample.jpg)](http://youtu.be/Yq4GdLeIM5g)
